@@ -42,22 +42,17 @@ This project helps users to predict diseases based on symptoms inputted through 
     cd disease-prediction-system
     ```
 
-2. **Set up a Virtual Environment**
-    ```bash
-    python3 -m venv env
-    source env/bin/activate  # On Windows use `env\Scripts\activate`
-    ```
-
-3. **Install the Required Packages**
+2. **Install the Required Packages**
     ```bash
     pip install -r requirements.txt
     ```
 
-4. **Prepare the Model and Datasets**
+3. **Prepare the Model and Datasets**
    - Place your trained `svc.pkl` model inside the `models/` directory.
    - Ensure all datasets are in the `datasets/` folder as specified in the code.
+   - To create the model run the model.py file in the dataset folder.
 
-5. **Run the Application**
+4. **Run the Application**
     ```bash
     python app.py
     ```
@@ -73,10 +68,7 @@ This project helps users to predict diseases based on symptoms inputted through 
 
 - **Home (`/`)**: The main page where users can input symptoms for disease prediction.
 - **Predict (`/predict`)**: Handles POST requests to process symptoms and display predictions.
-- **About (`/about`)**: Provides details about the application.
-- **Contact (`/contact`)**: Contact page for user support.
-- **Developer (`/developer`)**: Information about the developer(s).
-- **Blog (`/blog`)**: Placeholder for blog content related to health topics.
+
 
 ## Screenshots
 
