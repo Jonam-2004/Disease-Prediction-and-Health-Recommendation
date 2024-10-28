@@ -1,1 +1,102 @@
-# Disease-Prediction-and-Health-Recommendation
+# Disease Prediction and Recommendation System
+
+This Flask application provides a symptom-based disease prediction system using a machine learning model. Users can input symptoms, and the app predicts a likely disease, along with relevant information including a description, precautions, medications, diet recommendations, and workouts. The model uses a pre-trained Support Vector Classifier (SVC).
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Datasets](#datasets)
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Routes](#api-routes)
+- [Screenshots](#screenshots)
+- [Future Enhancements](#future-enhancements)
+- [Contributors](#contributors)
+- [License](#license)
+
+## Project Overview
+
+This project helps users to predict diseases based on symptoms inputted through the UI. Along with disease prediction, it provides additional recommendations for precautions, medications, dietary adjustments, and workout plans based on the predicted disease.
+
+## Features
+
+- **Disease Prediction:** Enter symptoms, and the app returns the predicted disease.
+- **Recommendations:** Provides information on disease description, precautions, medications, diet, and workout routines.
+- **User-Friendly Interface:** A simple, interactive UI built with HTML and Flask.
+- **Extendable:** Easy to add new diseases, symptoms, or additional data sources.
+  
+## Datasets
+
+- `symptoms_df.csv`: Contains symptoms data for model input.
+- `precautions_df.csv`: Holds precautionary measures for various diseases.
+- `workout_df.csv`: Contains workout recommendations for specific diseases.
+- `description.csv`: Provides descriptions for each disease.
+- `medications.csv`: Lists medications for different diseases.
+- `diets.csv`: Contains dietary recommendations for diseases.
+
+## Installation
+
+1. **Clone the Repository**
+    ```bash
+    git clone https://github.com/your-username/disease-prediction-system.git
+    cd disease-prediction-system
+    ```
+
+2. **Set up a Virtual Environment**
+    ```bash
+    python3 -m venv env
+    source env/bin/activate  # On Windows use `env\Scripts\activate`
+    ```
+
+3. **Install the Required Packages**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Prepare the Model and Datasets**
+   - Place your trained `svc.pkl` model inside the `models/` directory.
+   - Ensure all datasets are in the `datasets/` folder as specified in the code.
+
+5. **Run the Application**
+    ```bash
+    python app.py
+    ```
+
+## Usage
+
+1. Start the Flask server by running `python app.py`.
+2. Navigate to `http://127.0.0.1:5000/` in your web browser.
+3. Enter your symptoms (comma-separated) on the homepage to receive a disease prediction.
+4. Review the disease description, precautions, recommended medications, diet, and workout.
+
+## API Routes
+
+- **Home (`/`)**: The main page where users can input symptoms for disease prediction.
+- **Predict (`/predict`)**: Handles POST requests to process symptoms and display predictions.
+- **About (`/about`)**: Provides details about the application.
+- **Contact (`/contact`)**: Contact page for user support.
+- **Developer (`/developer`)**: Information about the developer(s).
+- **Blog (`/blog`)**: Placeholder for blog content related to health topics.
+
+## Screenshots
+
+### Home Page
+![Home Page](ss/home_page.png)
+
+### Prediction Results
+![Prediction Results](ss/prediction_results.png)
+
+## Future Enhancements
+
+- **Integration with More Models**: Allow for selecting different machine learning models.
+- **Extended Symptoms and Disease Data**: Expand the database to include more diseases and symptoms.
+- **User Authentication**: Add login features for personalized user tracking.
+- **Recommendation System**: Use collaborative filtering to enhance diet, medication, and workout suggestions.
+
+## Contributors
+
+- **Your Name** - [GitHub Profile](https://github.com/Jonam-2004)
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
