@@ -85,9 +85,6 @@ This project helps users to predict diseases based on symptoms inputted through 
 - **User Authentication**: Add login features for personalized user tracking.
 - **Recommendation System**: Use collaborative filtering to enhance diet, medication, and workout suggestions.
 
-## Contributors
-
-- **Your Name** - [GitHub Profile](https://github.com/Jonam-2004)
 
 ## License
 
