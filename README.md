@@ -34,6 +34,38 @@ This project helps users to predict diseases based on symptoms inputted through 
 - `medications.csv`: Lists medications for different diseases.
 - `diets.csv`: Contains dietary recommendations for diseases.
 
+## Project Structure
+```
+project-directory/
+|-- datasets/
+|   |-- symptoms_df.csv
+|   |-- precautions_df.csv
+|   |-- medications.csv
+|   |-- diets.csv
+|   |-- description.csv
+|   `-- workout_df.csv
+|-- models/
+|   `-- svc.pkl
+|-- app.py         # Flask application
+|-- model.py       # Model training script
+|-- templates/
+|   |-- index.html
+|   |-- about.html
+|   |-- contact.html
+|   `-- developer.html
+|-- static/        # Static assets (CSS, JS, images)
+`-- README.md
+```
+
+### Prerequisites
+- Python 3.8+
+- Apache Spark
+- Flask
+- Required Python libraries:
+  ```bash
+  pip install flask pyspark pandas numpy
+  ```
+  
 ## Installation
 
 1. **Clone the Repository**
@@ -84,6 +116,14 @@ This project helps users to predict diseases based on symptoms inputted through 
 - **Extended Symptoms and Disease Data**: Expand the database to include more diseases and symptoms.
 - **User Authentication**: Add login features for personalized user tracking.
 - **Recommendation System**: Use collaborative filtering to enhance diet, medication, and workout suggestions.
+
+## Acknowledgments
+We express our gratitude to the management, faculty, and staff of **Mepco Schlenk Engineering College**, Sivakasi, for their continuous support and guidance.
+
+## Contributors
+- **[Abhishek S](https://github.com/Abishek9342)**
+- **[Manoj S](https://github.com/Jonam-2004)**
+- **[Prasanna Venkatesh S](https://github.com/anna123venkat)**
 
 
 ## License
