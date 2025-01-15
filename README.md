@@ -11,7 +11,7 @@ This Flask application provides a symptom-based disease prediction system using 
 - [API Routes](#api-routes)
 - [Screenshots](#screenshots)
 - [Future Enhancements](#future-enhancements)
-- [Acknowledgement](#acknowledgements)
+- [Acknowledgement](#acknowledgments)
 - [Contributors](#contributors)
 - [License](#license)
 
