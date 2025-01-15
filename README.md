@@ -72,12 +72,12 @@ project-directory/
 1. **Clone the Repository**
     ```bash
     git clone https://github.com/Jonam-2004/Disease-Prediction-and-Health-Recommendation.git
-    cd disease-prediction-system
+    cd Disease-Prediction-and-Health-Recommendation
     ```
 
 2. **Install the Required Packages**
     ```bash
-    pip install -r requirements.txt
+    pip install flask numpy pandas pickle
     ```
 
 3. **Prepare the Model and Datasets**
