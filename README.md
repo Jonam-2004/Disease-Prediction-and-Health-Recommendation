@@ -51,9 +51,6 @@ project-directory/
 |-- model.py       # Model training script
 |-- templates/
 |   |-- index.html
-|   |-- about.html
-|   |-- contact.html
-|   `-- developer.html
 |-- static/        # Static assets (CSS, JS, images)
 `-- README.md
 ```
