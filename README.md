@@ -71,7 +71,7 @@ project-directory/
 
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/your-username/disease-prediction-system.git
+    git clone [https://github.com/your-username/disease-prediction-system.git](https://github.com/Jonam-2004/Disease-Prediction-and-Health-Recommendation.git)
     cd disease-prediction-system
     ```
 
